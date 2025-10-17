@@ -9,6 +9,6 @@ Ez a package két node-ból áll:
 
 ```mermaid
 graph TD
-    A[/Kép_generáló node/] -->|üzenet típusa: std_msgs/String ("zsákuca" / "nem_zsákuca")| B[/Fel-ismerő node/]
-    B -->|üzenet típusa: std_msgs/String (észlelés eredménye)| C[/Terminál/]
+    A[/Kép_generáló node/] -->|std_msgs/String: zsákuca vagy nem_zsákuca| B[/Fel-ismerő node/]
+    B -->|std_msgs/String: észlelés eredménye| C[/Terminál/]
 
