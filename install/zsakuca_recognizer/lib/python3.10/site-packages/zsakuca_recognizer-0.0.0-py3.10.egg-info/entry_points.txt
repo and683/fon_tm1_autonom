@@ -1,0 +1,4 @@
+[console_scripts]
+image_generator_node = zsakuca_recognizer.image_generator_node:main
+recognizer_node = zsakuca_recognizer.recognizer_node:main
+

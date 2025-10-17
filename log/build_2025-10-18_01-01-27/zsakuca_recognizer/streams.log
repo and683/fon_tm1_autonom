@@ -1,0 +1,43 @@
+[0.374s] Invoking command in '/home/bandi/ros2_ws/src/zsakuca_recognizer': PYTHONPATH=/home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/zsakuca_recognizer build --build-base /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build install --record /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/install.log --single-version-externally-managed install_data
+[0.506s] running egg_info
+[0.506s] creating build/zsakuca_recognizer/zsakuca_recognizer.egg-info
+[0.506s] writing build/zsakuca_recognizer/zsakuca_recognizer.egg-info/PKG-INFO
+[0.506s] writing dependency_links to build/zsakuca_recognizer/zsakuca_recognizer.egg-info/dependency_links.txt
+[0.507s] writing entry points to build/zsakuca_recognizer/zsakuca_recognizer.egg-info/entry_points.txt
+[0.507s] writing requirements to build/zsakuca_recognizer/zsakuca_recognizer.egg-info/requires.txt
+[0.507s] writing top-level names to build/zsakuca_recognizer/zsakuca_recognizer.egg-info/top_level.txt
+[0.507s] writing manifest file 'build/zsakuca_recognizer/zsakuca_recognizer.egg-info/SOURCES.txt'
+[0.508s] reading manifest file 'build/zsakuca_recognizer/zsakuca_recognizer.egg-info/SOURCES.txt'
+[0.508s] writing manifest file 'build/zsakuca_recognizer/zsakuca_recognizer.egg-info/SOURCES.txt'
+[0.508s] running build
+[0.508s] running build_py
+[0.508s] creating /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build
+[0.509s] creating /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib
+[0.509s] creating /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer
+[0.509s] copying zsakuca_recognizer/image_generator_node.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer
+[0.509s] copying zsakuca_recognizer/recognizer_node.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer
+[0.509s] copying zsakuca_recognizer/__init__.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer
+[0.509s] running install
+[0.509s] running install_lib
+[0.510s] creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer
+[0.510s] copying /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer/image_generator_node.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer
+[0.510s] copying /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer/recognizer_node.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer
+[0.510s] copying /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer/__init__.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer
+[0.510s] byte-compiling /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer/image_generator_node.py to image_generator_node.cpython-310.pyc
+[0.511s] byte-compiling /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer/recognizer_node.py to recognizer_node.cpython-310.pyc
+[0.511s] byte-compiling /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer/__init__.py to __init__.cpython-310.pyc
+[0.511s] running install_data
+[0.511s] creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/ament_index
+[0.511s] creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/ament_index/resource_index
+[0.512s] creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/ament_index/resource_index/packages
+[0.512s] copying resource/zsakuca_recognizer -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/ament_index/resource_index/packages
+[0.512s] copying package.xml -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/zsakuca_recognizer
+[0.512s] creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/zsakuca_recognizer/launch
+[0.512s] copying launch/zsakuca.launch.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/zsakuca_recognizer/launch
+[0.512s] running install_egg_info
+[0.513s] Copying build/zsakuca_recognizer/zsakuca_recognizer.egg-info to /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer-0.0.0-py3.10.egg-info
+[0.513s] running install_scripts
+[0.528s] Installing image_generator_node script to /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/zsakuca_recognizer
+[0.528s] Installing recognizer_node script to /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/zsakuca_recognizer
+[0.528s] writing list of installed files to '/home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/install.log'
+[0.545s] Invoked command in '/home/bandi/ros2_ws/src/zsakuca_recognizer' returned '0': PYTHONPATH=/home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/zsakuca_recognizer build --build-base /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build install --record /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/install.log --single-version-externally-managed install_data

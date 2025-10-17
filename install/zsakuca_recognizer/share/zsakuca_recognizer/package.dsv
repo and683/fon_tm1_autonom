@@ -1,0 +1,6 @@
+source;share/zsakuca_recognizer/hook/pythonpath.ps1
+source;share/zsakuca_recognizer/hook/pythonpath.dsv
+source;share/zsakuca_recognizer/hook/pythonpath.sh
+source;share/zsakuca_recognizer/hook/ament_prefix_path.ps1
+source;share/zsakuca_recognizer/hook/ament_prefix_path.dsv
+source;share/zsakuca_recognizer/hook/ament_prefix_path.sh

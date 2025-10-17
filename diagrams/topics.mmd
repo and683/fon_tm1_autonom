@@ -1,3 +1,4 @@
 graph TD
-    A[/image_generator_node/] -->|std_msgs/String: zsákuca / nem_zsákuca| B[/recognizer_node/]
-    B -->|std_msgs/String: észlelés eredménye| C[/console/]
+    A[/Kép_generáló node/] -->|std_msgs/String: zsákuca vagy nem_zsákuca| B[/Fel-ismerő node/]
+    B -->|std_msgs/String: észlelés eredménye| C[/Terminál/]
+

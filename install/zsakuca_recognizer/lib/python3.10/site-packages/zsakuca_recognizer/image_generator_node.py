@@ -1,4 +1,4 @@
-cat > zsakuca_recognizer/image_generator_node.py << 'EOF'
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
@@ -7,28 +7,29 @@ import random
 class ImageGeneratorNode(Node):
     def __init__(self):
         super().__init__('image_generator_node')
-        self.publisher_ = self.create_publisher(String, 'zsákutca_topic', 10)
+        self.publisher_ = self.create_publisher(String, 'zsakuca_topic', 10)
         self.timer = self.create_timer(2.0, self.timer_callback)
         self.counter = 0
 
     def timer_callback(self):
         msg = String()
         if self.counter % 5 == 0:
-            msg.data = "zsákutca"
+            msg.data = "zsákuca"
         else:
-            msg.data = random.choice(["zsákutca", "nem_zsákutca"])
+            msg.data = random.choice(["zsákuca", "nem_zsákuca"])
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publikált: "{msg.data}"')
         self.counter += 1
 
 def main(args=None):
+    import rclpy
+    from rclpy.node import Node
+
     rclpy.init(args=args)
-    node = ImageGeneratorNode()
+    node = ImageGeneratorNode() 
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
-EOF
-

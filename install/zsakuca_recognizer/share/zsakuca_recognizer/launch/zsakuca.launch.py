@@ -1,5 +1,3 @@
-mkdir -p launch
-cat > launch/zsakuca.launch.py << 'EOF'
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
@@ -16,5 +14,3 @@ def generate_launch_description():
             name='recognizer_node'
         ),
     ])
-EOF
-

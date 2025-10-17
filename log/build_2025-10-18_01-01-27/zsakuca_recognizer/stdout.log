@@ -1,0 +1,41 @@
+running egg_info
+creating build/zsakuca_recognizer/zsakuca_recognizer.egg-info
+writing build/zsakuca_recognizer/zsakuca_recognizer.egg-info/PKG-INFO
+writing dependency_links to build/zsakuca_recognizer/zsakuca_recognizer.egg-info/dependency_links.txt
+writing entry points to build/zsakuca_recognizer/zsakuca_recognizer.egg-info/entry_points.txt
+writing requirements to build/zsakuca_recognizer/zsakuca_recognizer.egg-info/requires.txt
+writing top-level names to build/zsakuca_recognizer/zsakuca_recognizer.egg-info/top_level.txt
+writing manifest file 'build/zsakuca_recognizer/zsakuca_recognizer.egg-info/SOURCES.txt'
+reading manifest file 'build/zsakuca_recognizer/zsakuca_recognizer.egg-info/SOURCES.txt'
+writing manifest file 'build/zsakuca_recognizer/zsakuca_recognizer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build
+creating /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib
+creating /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer
+copying zsakuca_recognizer/image_generator_node.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer
+copying zsakuca_recognizer/recognizer_node.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer
+copying zsakuca_recognizer/__init__.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer
+running install
+running install_lib
+creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer
+copying /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer/image_generator_node.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer
+copying /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer/recognizer_node.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer
+copying /home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/build/lib/zsakuca_recognizer/__init__.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer
+byte-compiling /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer/image_generator_node.py to image_generator_node.cpython-310.pyc
+byte-compiling /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer/recognizer_node.py to recognizer_node.cpython-310.pyc
+byte-compiling /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/ament_index
+creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/ament_index/resource_index
+creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/ament_index/resource_index/packages
+copying resource/zsakuca_recognizer -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/ament_index/resource_index/packages
+copying package.xml -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/zsakuca_recognizer
+creating /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/zsakuca_recognizer/launch
+copying launch/zsakuca.launch.py -> /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/share/zsakuca_recognizer/launch
+running install_egg_info
+Copying build/zsakuca_recognizer/zsakuca_recognizer.egg-info to /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/python3.10/site-packages/zsakuca_recognizer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_generator_node script to /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/zsakuca_recognizer
+Installing recognizer_node script to /home/bandi/ros2_ws/src/zsakuca_recognizer/install/zsakuca_recognizer/lib/zsakuca_recognizer
+writing list of installed files to '/home/bandi/ros2_ws/src/zsakuca_recognizer/build/zsakuca_recognizer/install.log'

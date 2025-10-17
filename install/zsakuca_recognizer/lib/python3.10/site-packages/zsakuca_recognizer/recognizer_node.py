@@ -1,4 +1,4 @@
-cat > zsakuca_recognizer/recognizer_node.py << 'EOF'
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
@@ -8,16 +8,16 @@ class RecognizerNode(Node):
         super().__init__('recognizer_node')
         self.subscription = self.create_subscription(
             String,
-            'zsákutca_topic',
+            'zsakuca_topic',
             self.listener_callback,
             10
         )
 
     def listener_callback(self, msg):
-        if msg.data == "zsákutca":
-            self.get_logger().info("Zsákutca észlelve!")
+        if msg.data == "zsákuca":
+            self.get_logger().info("Zsákuca észlelve!")
         else:
-            self.get_logger().info("Nincs zsákutca.")
+            self.get_logger().info("Nincs zsákuca.")
 
 def main(args=None):
     rclpy.init(args=args)
@@ -28,5 +28,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-EOF
-
