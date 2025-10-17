@@ -12,3 +12,12 @@ graph TD
     A[/Kép_generáló node/] -->|std_msgs/String: zsákutca vagy nem_zsákutca| B[/Fel-ismerő node/]
     B -->|std_msgs/String: észlelés eredménye| C[/Terminál/]
 
+## Clone the package
+
+Ha szeretnéd letölteni a package-ot a saját gépedre:
+
+```bash
+cd ~/ros2_ws/src
+git clone https://github.com/and683/fon_tm1_autonom.git
+cd fon_tm1_autonom
+
