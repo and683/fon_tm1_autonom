@@ -7,16 +7,16 @@ import random
 class ImageGeneratorNode(Node):
     def __init__(self):
         super().__init__('image_generator_node')
-        self.publisher_ = self.create_publisher(String, 'zsakuca_topic', 10)
+        self.publisher_ = self.create_publisher(String, 'zsakutca_topic', 10)
         self.timer = self.create_timer(2.0, self.timer_callback)
         self.counter = 0
 
     def timer_callback(self):
         msg = String()
         if self.counter % 5 == 0:
-            msg.data = "zsákuca"
+            msg.data = "zsákutca"
         else:
-            msg.data = random.choice(["zsákuca", "nem_zsákuca"])
+            msg.data = random.choice(["zsákutca", "nem_zsákutca"])
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publikált: "{msg.data}"')
         self.counter += 1

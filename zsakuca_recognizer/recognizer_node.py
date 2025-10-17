@@ -14,10 +14,10 @@ class RecognizerNode(Node):
         )
 
     def listener_callback(self, msg):
-        if msg.data == "zsákuca":
-            self.get_logger().info("Zsákuca észlelve!")
+        if msg.data == "zsákutca":
+            self.get_logger().info("Zsákutca észlelve!")
         else:
-            self.get_logger().info("Nincs zsákuca.")
+            self.get_logger().info("Nincs zsákutca.")
 
 def main(args=None):
     rclpy.init(args=args)
