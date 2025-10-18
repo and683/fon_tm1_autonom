@@ -11,6 +11,7 @@ Ez a package két node-ból áll:
 graph TD
     A[/Kép_generáló node/] -->|std_msgs/String: zsákutca vagy nem_zsákutca| B[/Fel-ismerő node/]
     B -->|std_msgs/String: észlelés eredménye| C[/Terminál/]
+```
 
 ## Clone the package
 
@@ -20,4 +21,16 @@ Ha szeretnéd letölteni a package-ot a saját gépedre:
 cd ~/ros2_ws/src
 git clone https://github.com/and683/fon_tm1_autonom.git
 cd fon_tm1_autonom
+```
+
+## Build ROS 2 package
+
+A csomag fordításához és futtatásához:
+
+```bash
+cd ~/ros2_ws
+colcon build --packages-select fon_tm1_autonom --symlink-install
+source install/setup.bash
+ros2 launch fon_tm1_autonom zsakkutca.launch.py
+```
 
